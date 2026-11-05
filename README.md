@@ -6,15 +6,16 @@ Complexity costs money, so I keep architecture as simple as the stage allows. Pr
 
 The goal is for each engineer to ship more, at a lower cost per change. My skills repo tests the idea. I also build a Rust MCP server where agents from different vendors share work. Fencing tokens keep them off each other's slots, and TLC and Kani check the invariants.
 
-#### Lender with nearly 1M users
+#### Slana.mx, regulated lender with nearly 1M users
 
 The core banking vendor was going to miss launch, so I wrote the double-entry ledger myself. It reached **500K postings a day**.
 
 - Moved 41 services into one monorepo.
-- Gave each MR its own environment with 40+ services.
 - Took releases from every 2-3 weeks to **120+ a month**.
 - Made **Claude Code** the standard and put spec gates in CI.
-- Anyone in the company could request small changes in Slack. An agent opened the MR for review.
+- Built an AI agent that worked like a virtual employee, with access to Slack, GitLab, Jira, Confluence, Sentry, logs and telemetry.
+- People could message or mention it, comment, or assign it a task or an MR. It asked clarifying questions, kept memory and coordinated its own parallel work.
+- Every MR got a reproducible environment of 40+ services, partly so the agent could open an MR, review it, bring up the environment and test the flow in its own browser.
 
 #### Wallet in Telegram, platform with 100M+ users
 
