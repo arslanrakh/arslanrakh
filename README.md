@@ -1,4 +1,4 @@
-11+ years in distributed systems, 8+ in Java and Kotlin. Spring Boot, Kafka, Kubernetes, AWS.
+Tech Lead and Platform Architect in fintech lending and payments. 11+ years in distributed systems, 8+ in Java and Kotlin. Spring Boot, Kafka, Kubernetes, AWS.
 
 - Double-entry ledger, 500K postings a day, built in 1 month
 - Led AI enablement with Claude Code and OpenSpec gates, plus Slack and Jira agents for all staff
