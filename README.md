@@ -12,6 +12,6 @@ Before the lender I worked on **Wallet in Telegram**. The platform had **100M+ u
 
 On the side I worked on a US orthodontic SaaS that 2,000+ clinics used daily. I cut its CI from 40 minutes to 8 and built S3, SQS and Lambda pipelines for remeshing 3D jaw scans.
 
-Earlier I co-designed a **$107M** smart grid platform with **General Electric**, for a utility serving 4M consumers. I got 4 vendors' systems onto one IEC 61968 model and wrote the integration core that moved 96M grid parameters an hour. My Python optimizer cut grid decisions from 2 weeks to 1 day.
+Earlier, as Chief Systems Architect at a utility serving 4M consumers, I co-designed a **$107M** smart grid platform with **General Electric**. I put 4 vendors' systems on one IEC 61968 model and wrote the integration core, which moved 96M grid parameters an hour.
 
-My first hard problem was noise. Power lines kept corrupting the serial link to our gauges, so I wrote a protocol with Hamming codes. I also reverse-engineered a rival's protocol, and our gauges replaced theirs without new equipment on site.
+Long before that, at an industrial gauge maker, my first hard problem was noise. Power lines kept corrupting the serial link to our gauges, so I wrote a protocol with Hamming codes. I also reverse-engineered a rival's protocol, and our gauges replaced theirs without new equipment on site.
