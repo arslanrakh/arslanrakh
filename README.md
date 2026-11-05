@@ -2,7 +2,7 @@
 
 The vendor missed launch. I built core banking (loans, interest, repayments) in **1 month**. Its double-entry ledger reached **500K postings daily**. I led the regulatory audit's technical side.
 
-I moved outsourced teams off 2-3 week batches onto continuous delivery. Releases later reached **120+ a month**, each a single PR.
+I moved teams off 2-3 week batches onto continuous delivery. Releases later reached **120+ a month**, each a single PR.
 
 #### Toward the agent frontier
 
