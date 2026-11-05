@@ -5,4 +5,4 @@ Tech Lead and Platform Architect in fintech lending and payments. 11+ years in d
 - Owned P2P transfers and anti-fraud at Wallet in Telegram, Kotlin and Kafka at 10-30M events a day
 - Co-designed a $107M grid platform with General Electric
 
-I simplify architecture to what the project's stage and specifics need, and cut costs along the way. I start with processes and culture, because they multiply the whole team. Whatever won't multiply it, I do by hand.
+I simplify architecture to what the project's stage and specifics need, and cut costs along the way. I start with processes and culture, because they multiply the team. By hand I build what speeds everyone up.
