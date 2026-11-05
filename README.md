@@ -1,21 +1,21 @@
 **Tech Lead and Platform Architect.** 11+ years in distributed systems.
 
-Complexity costs money, so I keep architecture as simple as the stage allows. Process and culture come before code. What I build has to speed everyone else up.
+Every extra layer of architecture costs money, so I add one only when the stage needs it. Process and culture come first. Anything I build myself should speed up the whole team.
 
 #### Now, at the frontier of agent-driven engineering
 
-The goal is for each engineer to ship more, at a lower cost per change. My skills repo tests the idea. I also build a Rust MCP server where agents from different vendors share work. Fencing tokens keep them off each other's slots, and TLC and Kani check the invariants.
+The goal is for each engineer to ship more, at a lower cost per change. My skills repo tests the idea. I also build a Rust MCP server for agents from different vendors to share work. Fencing tokens keep them off each other's slots, and TLC and Kani check the invariants.
 
 #### Slana.mx, regulated lender with nearly 1M users
 
-The core banking vendor was going to miss launch, so I wrote the double-entry ledger myself. It reached **500K postings a day**.
+The core banking vendor was going to miss launch, so I wrote the double-entry ledger myself, up to **500K postings a day**.
 
 - Moved 41 services into one monorepo.
 - Took releases from every 2-3 weeks to **120+ a month**.
 - Made **Claude Code** the standard and put spec gates in CI.
-- Built an AI agent that worked like a virtual employee, with access to Slack, GitLab, Jira, Confluence, Sentry, logs and telemetry.
-- People could message or mention it, comment, or assign it a task or an MR. It asked clarifying questions, kept memory and coordinated its own parallel work.
-- Every MR got a reproducible environment of 40+ services, partly so the agent could open an MR, review it, bring up the environment and test the flow in its own browser.
+- Built an AI agent that acted as a virtual employee. Its access covered Slack, GitLab, Jira, Confluence, Sentry, logs and telemetry.
+- People messaged it, mentioned it in comments, and assigned it tasks and MRs. It asked questions back, kept memory and coordinated its own parallel work.
+- Gave each MR a reproducible environment of 40+ services. The agent used them too, opening an MR, reviewing it and testing the flow in its own browser.
 
 #### Wallet in Telegram, platform with 100M+ users
 
@@ -36,4 +36,4 @@ The core banking vendor was going to miss launch, so I wrote the double-entry le
 
 #### First job, industrial gauge maker
 
-Power lines corrupted our gauges' serial link, so I wrote a protocol with Hamming codes. I also reverse-engineered a rival's protocol, and our gauges replaced theirs without new equipment on site.
+Power lines corrupted our gauges' serial link, so I wrote a protocol with Hamming codes. I also reverse-engineered a rival's protocol, which let our gauges replace theirs with no new equipment.
