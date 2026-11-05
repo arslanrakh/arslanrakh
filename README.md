@@ -6,8 +6,6 @@ Now I work at the frontier of agent-driven engineering. The goal is for each cha
 
 I learned to work this way at a lender with nearly 1M users. The core banking vendor was going to miss launch, so I wrote the double-entry ledger myself. It reached **500K postings a day** and reconciled payments that arrived with no reference. Testing came next. Only 2 of 6 shared environments would deploy, so every MR got its own copy of 40+ services and we shut the shared ones down. Releases went from every 2-3 weeks to **120+ a month**, each one an MR deployed through continuous delivery.
 
-Agents came last. Specs got gates in CI, **Claude Code** became the standard, and anyone in the company could ask a Slack agent for a small change. The agent opened an MR for review. Other agents rebased and repaired open MRs.
-
 Before the lender I worked on **Wallet in Telegram**. The platform had **100M+ users**, and some of them tried to game it, so I designed the anti-fraud rule engine with the compliance team and wrote most of the rules.
 
 Earlier still, I co-designed a **$107M** smart grid platform with **General Electric**. My first hard problem was noise. Power lines kept corrupting the serial link to our gauges, so I wrote a protocol with Hamming codes. I also reverse-engineered a rival's protocol, and our gauges replaced theirs without new equipment on site.
