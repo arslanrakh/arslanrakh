@@ -1,14 +1,14 @@
 **Tech Lead and Platform Architect** at Slana.mx, a lending fintech that reached nearly 1M users.
 
-The vendor missed launch. I built core banking (loans, interest, repayments) in **1 month**. Its double-entry ledger reached **500K postings daily**. I led the regulatory audit's technical side.
-
 I moved teams off 2-3 week batches onto continuous delivery. Releases later reached **120+ a month**, each PR a full system release.
+
+I reworked an inherited distributed monolith of about 40 services for agents and speed: one monorepo, one CI/CD pipeline, the whole codebase as agent context. Each MR got its own reproducible 40+ service stack, replacing shared test environments where only 2 of 6 deployed. The dedicated test clusters (14 nodes, 3 Aurora, 3 MSK) shut down.
 
 #### Toward the agent frontier
 
 I moved every engineer from building features to engineering agent loops: tuning pipelines, hardening checks and making ADR decisions. A smaller team of professionals outpaced the old-style teams. The goal is for each engineer to ship more at lower cost per change.
 
-I built an AI agent as a virtual employee. It opened and browser-tested MRs in their own 40+ service environments. Non-engineers could make changes through it, under code review.
+I built an AI agent as a virtual employee. It opened and browser-tested MRs in those per-MR stacks. Non-engineers could make changes through it, under code review.
 
 #### Earlier
 
