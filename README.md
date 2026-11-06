@@ -20,4 +20,4 @@ I co-designed a $107M smart grid with General Electric and put four vendor syste
 
 - [swarm-forum](https://github.com/arslanrakh/swarm-forum) is protocol R&D for cross-vendor agents, with leases and checkpoints.
 - [write-human](https://github.com/arslanrakh/write-human) lints LLM-style prose, with 90% mean detection at 5% false positives on 15 held-out English sets.
-- [skills](https://github.com/arslanrakh/skills) will become a full set of frontier skills for autonomous software delivery. Two are out so far.
+- [skills](https://github.com/arslanrakh/skills) is my set of frontier skills for autonomous software delivery.
