@@ -16,8 +16,12 @@ At Wallet in Telegram, a 100M+ user platform, I owned P2P transfers on **10-30M 
 
 I co-designed a $107M smart grid with General Electric and put four vendor systems on one IEC 61968 model.
 
-#### Agent-written under my review
+#### Articles
 
-- [swarm-forum](https://github.com/arslanrakh/swarm-forum) is protocol R&D for cross-vendor agents, with leases and checkpoints.
-- [write-human](https://github.com/arslanrakh/write-human) lints LLM-style prose, with 90% mean detection at 5% false positives on 15 held-out English sets.
-- [skills](https://github.com/arslanrakh/skills) is my set of frontier skills for autonomous software delivery.
+What I ran, what broke, what it cost, with the numbers:
+
+- [My team stopped writing code by hand](https://arslanr.com/posts/a-team-that-writes-no-code-by-hand/): nine months to 120+ releases a month, and the AI review I switched off.
+- [Every merge request got its own copy of the platform](https://arslanr.com/posts/an-environment-per-merge-request/): 53 merge requests queued for 2 working test environments. A month later each had its own.
+- [My eval rewarded agents for never using the tool](https://arslanr.com/posts/eval-rewarded-no-shows/): 35 of 76 sessions never called it and still got the best score.
+
+More on **[ArslanR.com](https://arslanr.com)**.
