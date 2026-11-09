@@ -18,4 +18,4 @@ I co-designed a $107M smart grid with General Electric and put four vendor syste
 
 #### Articles
 
-I write up what I ran, what broke and what it cost, with the numbers: how a team stopped writing code by hand, why every merge request got its own copy of the platform, and how an eval rewarded agents that never used the tool. Read them on **[ArslanR.com](https://arslanr.com)**.
+Read them on **[ArslanR.com](https://arslanr.com)**.
