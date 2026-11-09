@@ -20,8 +20,8 @@ I co-designed a $107M smart grid with General Electric and put four vendor syste
 
 What I ran, what broke, what it cost, with the numbers:
 
-- [My team stopped writing code by hand](https://arslanr.com/posts/a-team-that-writes-no-code-by-hand/): nine months to 120+ releases a month, and the AI review I switched off.
-- [Every merge request got its own copy of the platform](https://arslanr.com/posts/an-environment-per-merge-request/): 53 merge requests queued for 2 working test environments. A month later each had its own.
-- [My eval rewarded agents for never using the tool](https://arslanr.com/posts/eval-rewarded-no-shows/): 35 of 76 sessions never called it and still got the best score.
+- *My team stopped writing code by hand*: nine months to 120+ releases a month, and the AI review I switched off.
+- *Every merge request got its own copy of the platform*: 53 merge requests queued for 2 working test environments. A month later each had its own.
+- *My eval rewarded agents for never using the tool*: 35 of 76 sessions never called it and still got the best score.
 
-More on **[ArslanR.com](https://arslanr.com)**.
+Read them on **[ArslanR.com](https://arslanr.com)**.
